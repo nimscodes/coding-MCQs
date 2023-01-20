@@ -1,6 +1,8 @@
-# Module 6 Challenge Web APIs: Code Quiz
+# JavaScript Fundamentals MCQs
 
-## Your Task
+## Description
+
+The coding MCQs web apllications is a timed coding quiz app that dynamically update HTML and CSS and is 
 
 As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
 

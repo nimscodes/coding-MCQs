@@ -55,6 +55,8 @@ function checkAnswer(userAnswer){
     
     if ( userAnswer == questionsArr[current].choices[questionsArr[current].answer]){
         feedback.textContent = "Correct Answer!";
+        var cAudio = new Audio('assets/sfx/correct.wav');
+        cAudio.play();
         feedback.classList.remove('hide');
         setTimeout(function(){
             feedback.classList.add('hide');
@@ -68,6 +70,8 @@ function checkAnswer(userAnswer){
         
     }else{
         feedback.textContent = "Wrong Answer!";
+        var iAudio = new Audio('assets/sfx/incorrect.wav');
+        iAudio.play();
         feedback.classList.remove('hide');
         count = count - 10;
     }
